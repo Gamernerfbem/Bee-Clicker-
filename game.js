@@ -29,11 +29,11 @@ const beeImages = {
 const projectiles = {
   archer:"https://i.imgur.com/aHbflNX.png",
   ninja:"https://i.imgur.com/Zayahc2.png",
-  wizard:"https://i.imgur.com/DbDCX3O.png",
+  wizard:"https://i.imgur.com/OmFtlCl.png",
   pistol:"https://i.imgur.com/ZSY3UQQ.png",
   rifle:"https://i.imgur.com/ZSY3UQQ.png",
   bazooka:"https://i.imgur.com/lbmO40Q.png",
-  queen:"https://i.imgur.com/DbDCX3O.png"
+  queen:"https://i.imgur.com/OmFtlCl.png"
 };
 
 /* BEES (ORDER FIXED HERE) */
