@@ -1,0 +1,17 @@
+#shop {
+  position: fixed;
+  right: 10px;
+  top: 60px;
+
+  width: 280px;
+  height: 80vh;
+
+  background: #151a33;
+  border-radius: 10px;
+  border: 2px solid #333;
+
+  padding: 10px;
+  overflow-y: auto;
+
+  text-align: left;
+}
