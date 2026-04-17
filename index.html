@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Honey Clicker</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #1a1f3a;
+      color: white;
+      font-family: Arial;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    #clickBtn {
+      font-size: 90px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    /* 🧠 GAME AREA */
+    #beeArea {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 80px);
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    /* 🧱 SHOP */
+    #shop {
+      position: fixed;
+      right: 10px;
+      top: 60px;
+
+      width: 260px;
+      height: auto;
+      max-height: 85vh;
+
+      background: #151a33;
+      border-radius: 10px;
+      border: 2px solid #333;
+
+      padding: 10px;
+      text-align: left;
+      z-index: 9999;
+    }
+
+    #shop button {
+      width: 100%;
+      margin-bottom: 3px;
+      padding: 4px;
+      font-size: 12px;
+    }
+
+    .bee {
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .bee.jump {
+      transform: translateY(-18px);
+      transition: 0.12s;
+    }
+
+    .projectile {
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      pointer-events: none;
+    }
+
+    .critPopup {
+      position: absolute;
+      color: red;
+      font-weight: bold;
+      font-size: 22px;
+      animation: floatUp 0.8s ease-out forwards;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-50px); opacity: 0; }
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🐝 Honey Clicker</h1>
+
+<button id="clickBtn" onclick="manualClick()">🌸</button>
+
+<p id="honey">Honey: 0 🍯</p>
+<p id="critUI">Critical Stings: 0/10</p>
+
+<div id="shop">
+  <div id="upgradeShop"></div>
+  <div style="height: 10px;"></div>
+  <div id="meleeShop"></div>
+  <div style="height: 10px;"></div>
+  <div id="rangedShop"></div>
+</div>
+
+<div id="beeArea"></div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
