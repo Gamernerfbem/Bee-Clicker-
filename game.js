@@ -38,21 +38,21 @@ const projectiles = {
 
 /* BEES (ORDER FIXED HERE) */
 const beeTypes = {
-  stinger:{img:beeImages.stinger,power:1,speed:1500,cost:10,zone:"melee"},
+  stinger:{img:beeImages.stinger,power:1,speed:1300,cost:10,zone:"melee"},
   sword:{img:beeImages.sword,power:2,speed:1200,cost:25,zone:"melee"},
-  jouster:{img:beeImages.jouster,power:3,speed:1100,cost:40,zone:"melee"},
-  samurai:{img:beeImages.samurai,power:5,speed:1000,cost:80,zone:"melee"},
-  giant:{img:beeImages.giant,power:6,speed:2000,cost:100,zone:"melee"}, // 👈 HERE
-  lightsword:{img:beeImages.lightsword,power:7,speed:900,cost:150,zone:"melee"},
-  king:{img:beeImages.king,power:10,speed:1500,cost:300,zone:"melee"},
+  jouster:{img:beeImages.jouster,power:5,speed:1100,cost:50,zone:"melee"},
+  samurai:{img:beeImages.samurai,power:7,speed:1000,cost:100,zone:"melee"},
+  giant:{img:beeImages.giant,power:10,speed:2500,cost:150,zone:"melee"}, // 👈 HERE
+  lightsword:{img:beeImages.lightsword,power:4,speed:800,cost:250,zone:"melee"},
+  king:{img:beeImages.king,power:20,speed:1500,cost:450,zone:"melee"},
 
   archer:{img:beeImages.archer,projectile:"archer",power:2,speed:1300,cost:20,zone:"ranged"},
-  ninja:{img:beeImages.ninja,projectile:"ninja",power:3,speed:900,cost:60,zone:"ranged"},
-  wizard:{img:beeImages.wizard,projectile:"wizard",power:4,speed:1200,cost:90,zone:"ranged"},
-  pistol:{img:beeImages.pistol,projectile:"pistol",power:5,speed:800,cost:120,zone:"ranged"},
-  rifle:{img:beeImages.rifle,projectile:"rifle",power:6,speed:700,cost:160,zone:"ranged"},
-  bazooka:{img:beeImages.bazooka,projectile:"bazooka",power:10,speed:2000,cost:300,zone:"ranged"},
-  queen:{img:beeImages.queen,projectile:"queen",power:15,speed:1500,cost:500,zone:"ranged"}
+  ninja:{img:beeImages.ninja,projectile:"ninja",power:3,speed:900,cost:75,zone:"ranged"},
+  wizard:{img:beeImages.wizard,projectile:"wizard",power:5,speed:1100,cost:150,zone:"ranged"},
+  pistol:{img:beeImages.pistol,projectile:"pistol",power:8,speed:800,cost:200,zone:"ranged"},
+  rifle:{img:beeImages.rifle,projectile:"rifle",power:5,speed:600,cost:250,zone:"ranged"},
+  bazooka:{img:beeImages.bazooka,projectile:"bazooka",power:18,speed:2000,cost:350,zone:"ranged"},
+  queen:{img:beeImages.queen,projectile:"queen",power:25,speed:1500,cost:550,zone:"ranged"}
 };
 
 /* CLICK */
