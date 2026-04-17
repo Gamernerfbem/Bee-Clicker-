@@ -33,7 +33,7 @@ const projectiles = {
   pistol:"https://i.imgur.com/ZSY3UQQ.png",
   rifle:"https://i.imgur.com/ZSY3UQQ.png",
   bazooka:"https://i.imgur.com/lbmO40Q.png",
-  queen:"https://i.imgur.com/OmFtlCl.png"
+  queen:"hhttps://i.imgur.com/MeXbLdU.png"
 };
 
 /* BEES (ORDER FIXED HERE) */
